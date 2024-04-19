@@ -1,0 +1,11 @@
+require 'json'
+require 'bigdecimal'
+require 'date'
+
+require_relative '../models/sailing'
+require_relative '../models/rate'
+require_relative '../serializers/sailing_serializer'
+require_relative '../commands/rates/compute_cost_in_euro'
+require_relative '../commands/sailings/filter_indirect_connections'
+require_relative '../commands/sailings/find_direct_and_cheapest'
+require_relative '../commands/sailings/find_cheapest'
